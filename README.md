@@ -1,12 +1,48 @@
-# Firewall Deployment and Configuration 🔥
+# Firewall Deployment and Configuration 
 
 ## Objective
 
+The objective of this project is to implement and demonstrate effective techniques for configuring a firewall using UFW and detecting network vulnerabilities with Nmap.
 
-### Skills Learned
+By exploring and applying these tools, the project aims to enhance understanding of network security principles, improve defensive measures against potential threats, and develop practical skills in monitoring and managing network traffic. 
 
+Through hands-on experience, the project seeks to empower users with the knowledge to create secure environments and respond effectively to security incidents.
 
-### Tools Used
+## Pre-requisites
+- Basic understanding of networking concepts
+- Familiarity with the Linux command line
+- Knowledge of common network protocols (HTTP, TCP/IP, etc.)
+- A computer with at least 8GB of RAM and 20GB of free disk space
+- Virtualization software (VirtualBox, VMware, etc.)
+
+## Lab Set-up and Tools
+### Lab Set-up
+1. **Virtual Machines**:
+   - **VM**: Ubuntu Virtual Machine
+
+2. **Admin Configuration**:
+Root Access or Sudo Privileges: You need administrative rights to install and configure UFW.
+Debian-Based Linux Distribution: UFW is designed for use on Debian-based systems (e.g., Ubuntu, Linux Mint).
+Installation of UFW: Ensure UFW is installed on your system (usually pre-installed on many distributions).
+
+Prerequisites for Nmap:
+
+**Root Access or Sudo Privileges**: Some Nmap functionalities require elevated privileges to gather detailed information about network services.
+
+**Debian-Based Linux Distribution**: Nmap should be installed on a compatible Linux system.
+
+**Installation of Nmap**: Make sure Nmap is installed (use sudo apt install nmap if it’s not).
+
+**Network Access**: Ensure you have the appropriate permissions to scan the target IP addresses or networks to avoid legal issues.
+
+   
+
+### Tools
+- **Uncomplicated Firewall**: A user-friendly interface for managing firewall rules on Debian-based systems, allowing for easy configuration of network traffic permissions.
+- **Nmap**: A powerful network scanning tool used for discovering hosts, services, and vulnerabilities on a network. It provides various scanning techniques and detailed information about the scanned targets.
+- **Terminal/Command Line Interface**: The primary environment for executing commands related to UFW and Nmap, where users input commands to manage firewall settings and perform network scans.
+- **SSH Client (e.g., OpenSSH)**: For managing remote systems securely via SSH, which is commonly allowed through UFW.
+
 
 
 ## Steps used throughout the project
